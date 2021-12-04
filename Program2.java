@@ -20,6 +20,8 @@
 * * * * * * * * *
 
 */
+package Java;
+
 import java.util.*;
 
 public class Program2 {
