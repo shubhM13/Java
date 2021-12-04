@@ -8,12 +8,12 @@ public class Program7 {
             case 1:
                 System.out.println("Desktop");
                 break;
+            // Fall through happens when the break; is not specified after a case, In this
+            // situation the following case statements would execute without a check.
             case 2:
                 System.out.println("Laptop");
-                break;
             case 3:
                 System.out.println("Laptop better than Desktop");
-                break;
         }
     }
 }
