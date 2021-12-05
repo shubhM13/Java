@@ -1,7 +1,7 @@
 /*
 Print : X is greater than Y  (if that is the case)
 */
-package Java;
+
 
 public class Program4 {
     // attributes

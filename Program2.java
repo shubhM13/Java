@@ -20,7 +20,7 @@
 * * * * * * * * *
 
 */
-package Java;
+
 
 public class Program2 {
     //attributes

@@ -10,7 +10,7 @@ day = 6: Saturday
 day = 7: Sunday
 
 */
-package Java;
+
 
 import java.util.Scanner;
 
@@ -20,6 +20,8 @@ public class Program6 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a day of the week in numerical form:");
         int day = sc.nextInt();
+        // Scanners should be closed when we are done reading
+        sc.close();
 
         switch (day) {
             case 1:

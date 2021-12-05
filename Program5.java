@@ -5,7 +5,7 @@ Before 12:00 : Good Morning
 Between 12:00 to 17:00 (5 PM in evening) : Good Day
 After 17:00 : Good Evening
 */
-package Java;
+
 
 public class Program5 {
 

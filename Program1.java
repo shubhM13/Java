@@ -14,7 +14,7 @@ IN JAVA
 //import java.util.*;
 
 // access specifiers : Public, Private & Protected
-package Java;
+
 
 public class Program1 {
     // 1) attributes

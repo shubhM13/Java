@@ -1,4 +1,3 @@
-package Java;
 // Java Switch Case Fall Through Example
 
 public class Program7 {
@@ -14,6 +13,15 @@ public class Program7 {
                 System.out.println("Laptop");
             case 3:
                 System.out.println("Laptop better than Desktop");
+            case 4:
+                System.out.println("Tablet");
+                break;
+            case 5:
+                System.out.println("Tablet is the smallest among all the three");
+                break;
+            default:
+                System.out.println("This is the default case");
+                break;
         }
     }
 }
