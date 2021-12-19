@@ -36,7 +36,7 @@ public class Program14 {
         switch (choice) {
             // Cuboid
             case 1:
-                System.out.println("Enter the lenght of cuboid:");
+                System.out.println("Enter the length of cuboid:");
                 double l = sc.nextDouble();
                 System.out.println("Enter the breadth of cuboid:");
                 double b = sc.nextDouble();
@@ -49,15 +49,34 @@ public class Program14 {
 
             // Cylinder
             case 2:
+                System.out.println("Enter the radius of cylinder:");
+                double rCyliner = sc.nextDouble();
+                System.out.println("Enter the height of cylinder:");
+                double hCylinder = sc.nextDouble();
+                double vCylinder = (22.0 / 7.0) * rCyliner * rCyliner * hCylinder; // mathematical operators
+                // 3.1428571429 * 10 * 10 * 7 = 2200
+                // 3 * 10 * 10 * 7 = 2100
+                // Note : The result of integer division is always truncated and rounded off to
+                // the just smaller integer value Ex. 3.1428 ---> 3; 2.5 ---> 2;
+                System.out.println("The Volumne of Cylinder with radius " + rCyliner +
+                        " and height " + hCylinder + " is " + vCylinder + " cu units.");
                 break;
 
             // Cone
             case 3:
+                System.out.println("Enter the radius of cone:");
+                double rCone = sc.nextDouble();
+                System.out.println("Enter the height of cone:");
+                double hCone = sc.nextDouble();
+                double vCone = (1.0 / 3.0) * (22.0 / 7.0) * rCone * rCone * hCone; // mathematical operators
+                System.out.println("The Volumne of Cone with radius " + rCone +
+                        " and height " + hCone + " is " + vCone + " cu units.");
                 break;
 
             default:
                 System.out.println("Wrong choice selected! Please select from 1, 2 or 3.");
         }
+        sc.close();
 
     }
 }
