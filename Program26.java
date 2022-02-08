@@ -40,7 +40,3 @@ public class Program26 {
         return isPrime;
     }
 }
-
-/* HW
-1) Program 30 : 3 times (1 referring , 2 w/o referring repeated programs)
-2)
